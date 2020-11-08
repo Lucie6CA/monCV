@@ -73,7 +73,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #7bc3d1;
+	background: #ffab5e;
 	
 	margin: 0 auto;
 	margin-bottom: 30px;
@@ -120,13 +120,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #7bc3d1;
+	color: #f7ca83;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #7bc3d1;
+	color: #f7ca83;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -160,8 +160,8 @@ hr {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #7bc3d1;
-	border-color: #7bc3d1;
+	background-color: #f7ca83;
+	border-color: #f7ca83;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -530,6 +530,9 @@ ol.type li a:hover {
 background: #f7ca83;
 
 
+}
+#a hr {
+	background: rgba(255,255,255,0.3);
 }
 /* Contact Section */
 #contact {

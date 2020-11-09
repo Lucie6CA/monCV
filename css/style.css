@@ -709,6 +709,8 @@ background: linear-gradient(to right, #33CCCC, #ffaa00);
 
 .services {
 	margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .services .container-fluid {
@@ -769,7 +771,43 @@ background: linear-gradient(to right, #33CCCC, #ffaa00);
 	transition: all 0.5s;
 }
 
+.main-banner1 .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: auto;
+    margin-right: auto;
+}
+/* .main-banner .banner-content { */
+	/* background-image: url(../img/bacalar.jpg); */
+	/* background-size: cover; */
+	/* background-repeat: no-repeat; */
+/* } */
 
+.main-banner1 .banner-content .banner-caption {
+	    max-width: 1200px;
+
+	background-color: #000000;
+	margin: auto;
+	padding: 65px;
+	
+}
+
+.main-banner1 .banner-content .banner-caption h4 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #ffab5e;
+	letter-spacing: 0.25px;
+	margin: 0px;
+}
+
+
+.main-banner1 .banner-content .banner-caption p {
+	font-size: 15px;
+
+	margin-bottom: 30px;
+	color: #ffab5e;
+	
+}
 
 /*Interests Section*/
 

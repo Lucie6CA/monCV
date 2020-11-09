@@ -531,13 +531,23 @@ background: linear-gradient(to right, #33CCCC, #ffaa00);
 	margin: 0;
 }
 
+#logo{
+	width: 100px;
+	height:100px;
+}
+#bde{
+	width: 100px;
+	height:100px;
+}
 /* Content */
 
 .overview > li{margin-bottom:30px;}
 .overview > li:nth-last-child(-n+3){margin-bottom:0;}/* Removes bottom margin from the last three items - margin is restored in the media queries when items stack */
-.overview > li:nth-child(3n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
+.overview > li:nth-child(3n+1){margin-left:150px; clear:left;}/* Removes the need to add class="first" */
 .overview > li figure{position:relative; max-width:400px;}/* Uses the one_third width in pixels */
-.overview > li figure a::after{position:absolute; top:0; right:0; bottom:0; left:100px; content:"";}
+.overview > li figure{position:relative; max-width:400px;}/* Uses the one_third width in pixels */
+
+.overview > li figure a::after{position:absolute; top:0; right:0; bottom:0; left:0; content:"";}
 .overview > li figure figcaption{display:block; position:absolute; bottom:0; width:100%; padding:15px;}
 
 .overview > li figure:hover a::after, .overview > li figure:hover figcaption{opacity:0; visibility:hidden;}

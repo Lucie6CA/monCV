@@ -720,6 +720,7 @@ background: linear-gradient(to right, #33CCCC, #ffaa00);
 	padding: 50px;
 	text-align: center;
 	transition: all 0.5s;
+	height: 350px;
 }
 
 .services .service-item .icon {
@@ -765,12 +766,12 @@ background: linear-gradient(to right, #33CCCC, #ffaa00);
 
 /*Interests Section*/
 
-#a {
+#interests {
 background: #ffab5e;
 	padding: 50px 0 60px 0;
 
 }
-#a hr {
+#interests hr {
 	background: rgba(255,255,255,0.3);
 }
 

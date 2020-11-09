@@ -164,7 +164,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #ffab5e;
-	background: url(../img/bacalar.jpg) no-repeat center top;
+	background: url(../img/tulum.jpg) no-repeat center top;
 	/*background-color: #7bc3d1;*/
 /* 	background-color: #FF9933;
  */	background-color: #ffffff;
@@ -299,7 +299,7 @@ hr {
 /* Portfolio Section */
 #portfolio {
 	padding: 80px 0;
-	background: #ffffff; /* Old browsers */
+	background: #fff3ea; /* Old browsers */
 	/* background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */ */
 	/* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */ */
 	/* background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Chrome10+,Safari5.1+ */ */
@@ -502,7 +502,7 @@ background: linear-gradient(to right, #33CCCC, #ffaa00);
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
-	background: #fff3ea;
+	background: #ffab5e;
 }
 #achievements h2 {
 	color: #000000;
@@ -521,6 +521,9 @@ background: linear-gradient(to right, #33CCCC, #ffaa00);
 	margin-left: 5px;
 	font-weight:bold;
 
+}
+#achievement hr{
+	background: rgba(255,255,255,0.3);
 }
 #achievement {
 	font-size: 52px;
@@ -584,6 +587,7 @@ background: linear-gradient(to right, #33CCCC, #ffaa00);
 	position: relative;
 	padding: 0;
 	list-style: none;
+	
 }
 .timeline:before {
 	content: "";
@@ -630,18 +634,21 @@ background: linear-gradient(to right, #33CCCC, #ffaa00);
 	z-index: 100;
 	position: absolute;
 	left: 0;
-	width: 70px;
-	height: 70px;
+	width: 90px;
+	height: 90px;
 	margin-left: 0;
 	border: 1px solid #eee;
 	border-radius: 100%;
 	text-align: center;
-	background: #fff;
+	/* background: #fff; */
+	background : url(../img/tulum.jpg) no-repeat center top;
 }
 .timeline>li .timeline-image h4 {
 	margin-top: 20px;
-	font-size: 14px;
+	font-size: 20px;
 	text-transform: uppercase;
+	color: white;
+
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	float: right;
@@ -666,15 +673,15 @@ background: linear-gradient(to right, #33CCCC, #ffaa00);
 .timeline .timeline-heading h4 {
 	margin-top: 0;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 30px;
 }
 .timeline .timeline-heading h2 {
 	margin-top: 30px;
 }
 .timeline .timeline-heading h4.subheading {
 	text-transform: none;
-	color: #629ca7;
-	font-size: 20px;
+	color: #28b5ac;
+	font-size: 25px;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 0;
@@ -850,11 +857,11 @@ background: #ffab5e;
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #fff3ea;
+	background: #000000;
 }
 
 #contact h2 {
-	color: #000000;
+	color: #ffffff;
 }
 #contact hr{
 	background:#ffab5e;
@@ -864,7 +871,7 @@ background: #ffab5e;
 	padding-top: 20px;
 	font-size: 20px;
 	font-weight: 400;
-	color: #000000;
+	color: #ffffff;
 }
 #contact form {
 	padding: 30px 0;
@@ -882,6 +889,9 @@ label {
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	float: left;
+}
+#contact p{
+	color: #ffffff
 }
 #contact .form-control {
 	display: block;
@@ -920,6 +930,7 @@ color: #2c3e50;
 }
 #contact .social {
 	margin-top: 60px;
+	
 }
 #contact .social ul li {
 	display: inline-block;
@@ -928,11 +939,11 @@ color: #2c3e50;
 #contact .social i.fa {
 	font-size: 30px;
 	padding: 4px 5px;
-	color: #000000;
+	color: #ffffff;
 	transition: all 0.5s;
 }
 #contact .social i.fa:hover {
-	color: #121d1f;
+	color: #ffffff;
 }
 #contact .btn {
 	background-color: transparent;
@@ -943,8 +954,8 @@ color: #2c3e50;
 	margin-top: 15px;
 }
 #contact .btn:hover, #contact .btn:focus {
-	background-color: #121d1f;
-	border: 1px solid #121d1f;
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -959,7 +970,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer Section*/
 #footer {
-	background: #000000;
+	background: url(../img/tulum.jpg) no-repeat center top;
+	/* background: #000000; */
 	color: #ffffff;
 	padding: 30px 0 25px 0;
 }
